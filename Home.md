@@ -1,5 +1,5 @@
-**layout: page
+layout: page
 title: "Home"
-permalink: /**
+permalink: /
 
 Testing pages eh eh eh 
