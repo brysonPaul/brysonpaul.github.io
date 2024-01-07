@@ -1,12 +1,12 @@
-import "./Home.css"
+import "../App.css"
 
-function Home() {
+function Projects() {
   return (
-    <div className="Home">
-      <header className="Home-header">
+    <div className="Page">
+      <header className="header">
         <h1>Bryson Paul</h1>
       </header>
-        <p className='Home-text'>
+        <p className='text'>
             I'm Bryson, an incoming SWE at Google. Welcome to my website!
         </p>
      
@@ -14,4 +14,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Projects;

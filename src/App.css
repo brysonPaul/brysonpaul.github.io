@@ -19,17 +19,16 @@ body, html {
   
 }
 
-.App-header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
   padding: 20px;
   font-size: calc(20px + 2vmin);
   color: #084a58;
 }
 
-.App-text {
+.text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,4 +36,10 @@ body, html {
   font-size: calc(12px + 2vmin);
   margin-top: 20px;
   color: #084a58;
+}
+
+.Page {
+  text-align: center;
+  background-color: #dfceb2;
+  height: 100vh; /* Set the height to 100% of the viewport height */
 }

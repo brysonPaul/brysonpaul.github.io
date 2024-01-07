@@ -1,4 +1,4 @@
-.sidebar {
+/* .sidebar {
     position: fixed;
     left: 0;
     width: 250px;
@@ -15,7 +15,7 @@
 }
 
 .sidebar ul {
-    text-align: center; /* Center the text inside ul */
+    text-align: center; 
 }
 
 .sidebar a {
@@ -30,8 +30,15 @@
     border-top: 1px solid;
     border-bottom: 1px solid black;
     transition: .4s;
+} 
+*/
+
+.p {
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
-.sidebar a:hover {
+.sidebar item:hover {
     padding-left: 50px;
 }
