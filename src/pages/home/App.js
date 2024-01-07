@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Bryson Paul</h1>
       </header>
-      <Sidebar/>
+      <Sidebar className="sidebar"/>
         <p className='App-text'>
             I'm Bryson, an incoming SWE at Google. Welcome to my website!
         </p>

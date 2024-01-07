@@ -12,6 +12,13 @@ body, html {
   height: 100vh; /* Set the height to 100% of the viewport height */
 }
 
+.sidebar{
+  background-color: #7f552f !important;
+  font: 100;
+  display: flow-root;
+  
+}
+
 .App-header {
   display: flex;
   flex-direction: column;
