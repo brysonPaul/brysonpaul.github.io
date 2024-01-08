@@ -1,15 +1,29 @@
-import "../App.css"
+import "../App.css";
+import Resume from "../images/Resume.pdf";
 
 function Home() {
   return (
-    <div className="Page">
+    <div className="Page" style={{ display: "flex", flexDirection: 'column', alignItems: "center" }}>
+
       <header className="header">
         <h1>Bryson Paul</h1>
       </header>
-        <p className='text'>
-            I'm Bryson, an incoming SWE at Google. Welcome to my website!
+
+      <div className="text">
+        <p>
+          I'm Bryson, an incoming SWE at Google. Welcome to my website!
         </p>
-     
+      </div>
+
+      <div className="social" style={{ position: 'absolute', top: 0, right: 0 }}>
+        <a className="icon-links" href="https://www.linkedin.com/in/bryson-paul/">
+          <i className="fa fa-brands fa-linkedin" title="View my LinkedIn"></i>
+        </a>
+        <a className="icon-links" href={Resume} target="_blank" rel="noopener noreferrer" type="application/pdf">
+          <i className="fa fa-fw fa-file" title="View my resume"></i>
+        </a>
+      </div>
+
     </div>
   );
 }
