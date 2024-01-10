@@ -4,10 +4,10 @@ function Projects() {
   return (
     <div className="Page">
       <header className="header">
-        <h1>Bryson Paul</h1>
+        <h1>Projects</h1>
       </header>
         <p className='text'>
-            I'm Bryson, an incoming SWE at Google. Welcome to my website!
+            Here are some of the projects I have worked on!
         </p>
      
     </div>

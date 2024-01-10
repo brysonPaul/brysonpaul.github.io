@@ -9,10 +9,11 @@ function Home() {
         <h1>Bryson Paul</h1>
       </header>
 
-      <div className="text">
-        <p>
-          I'm Bryson, an incoming SWE at Google. Welcome to my website!
+      <div >
+        <p className="text">
+          Hey! I'm Bryson, an incoming SWE at Google. Welcome to my website!
         </p>
+         
       </div>
 
       <div className="social" style={{ position: 'absolute', top: 0, right: 0 }}>
@@ -21,6 +22,9 @@ function Home() {
         </a>
         <a className="icon-links" href={Resume} target="_blank" rel="noopener noreferrer" type="application/pdf">
           <i className="fa fa-fw fa-file" title="View my resume"></i>
+        </a>
+        <a className="icon-links" href="mailto:brysonpaul1870@gmail.com" target="_blank" rel="noopener noreferrer" type="application/pdf">
+          <i className="fa fa-fw fa-envelope" title="Send me an email"></i>
         </a>
       </div>
 

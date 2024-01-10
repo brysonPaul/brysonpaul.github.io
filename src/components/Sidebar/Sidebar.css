@@ -37,6 +37,7 @@
     display: flex;
     justify-content: end;
     align-items: end;
+    height: "100%";
 }
 
 .sidebar item:hover {

@@ -4,10 +4,10 @@ function Experiences() {
   return (
     <div className="Page">
       <header className="header">
-        <h1>Bryson Paul</h1>
+        <h1>Experiences</h1>
       </header>
         <p className='text'>
-            I'm Bryson, an incoming SWE at Google. Welcome to my website!
+            Here are some of the experiences I have had! Feel free to click on one to get some more information on it!
         </p>
      
     </div>

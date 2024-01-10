@@ -18,7 +18,8 @@ function Sidebar() {
   }
   return (
     <SideNav
-      style={{ minWidth: expanded ? 300 : 56 }}
+      //this is a dumb way to make the nav bar reach the end but it would work ig...
+      style={{ minWidth: expanded ? 300 : 56, height:40000}}
       onSelect={(selected) => {
         navigate('/' + selected);
       }}
