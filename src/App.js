@@ -1,5 +1,5 @@
 import './App.css';
-import Sidebar from './components/Sidebar/Sidebar';
+import Bar from './components/Bar.js';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 import Home from "./pages/Home.js";
@@ -11,7 +11,7 @@ import Experiences from "./pages/Experiences.js";
 function App() {
   return (
     <Router>
-      <Sidebar className="sidebar"/>
+      <Bar/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
