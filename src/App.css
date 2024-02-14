@@ -56,21 +56,17 @@ body, html {
 }
 
 .atext {
-  margin-bottom: 20px;
-  line-height: 1.4;
-  display: flex;
-  flex-direction: row; /* Change to row to align photo and text horizontally */
-  align-items: center;
-  justify-content: center;
   font-size: calc(8px + 2vmin);
   margin-top: 20px;
   color: #084a58;
 }
 
 .photo {
-  border-radius: 8px;
-  max-width: 100%; /* Ensure the photo doesn't exceed its container width */
-  margin-right: 60px; 
- 
-  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 100px;
+  padding: 40px;
+  max-width: 100%;
+  width: 600px;
 }

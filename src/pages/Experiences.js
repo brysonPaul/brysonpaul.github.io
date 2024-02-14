@@ -1,8 +1,10 @@
 import "../App.css"
+import Social from "../components/Social/Social.js"
 
 function Experiences() {
   return (
     <div className="Page">
+      <Social/>
       <header className="header">
         <h1>Experiences</h1>
       </header>
