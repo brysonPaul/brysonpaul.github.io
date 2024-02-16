@@ -4,6 +4,8 @@
 	http://jedwatson.github.io/classnames
 */
 
+/*! react-sidenav v0.5.0 | (c) 2020 Trend Micro Inc. | MIT | https://github.com/trendmicro-frontend/react-sidenav */
+
 /**
  * @license React
  * react-dom.production.min.js
